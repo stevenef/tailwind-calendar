@@ -1,0 +1,19 @@
+{
+  "name": "tailwind-calender-page",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "postcss public/tailwind.css -o public/build/tailwind.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss-cli": "^8.1.0",
+    "tailwindcss": "^1.9.2"
+  },
+  "devDependencies": {
+    "tailwindcss-debug-screens": "^1.1.0"
+  }
+}
