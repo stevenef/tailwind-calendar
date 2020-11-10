@@ -1,8 +1,9 @@
 @tailwind base;
 @tailwind components;
-
-.btn-primary {
-    @apply inline-block px-10 py-3 my-2 text-white bg-brand;
-}
-
 @tailwind utilities;
+
+@layer components {
+    .btn-primary {
+        @apply inline-block px-10 py-3 my-2 text-white bg-brand;
+    }
+}
